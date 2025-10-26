@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estadísticas del Jugador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Estadísticas del Servidor</h1>
+
+    <div id="login" class="login">
+      <p>Introduce tu nombre de jugador:</p>
+      <input type="text" id="playerName" placeholder="Ejemplo: PekixPro">
+      <button id="saveName">Entrar</button>
+    </div>
+
+    <div id="stats" class="stats hidden">
+      <h2>Jugador: <span id="nameDisplay"></span></h2>
+      <div class="card">
+        <p><strong>Rango:</strong> <span id="rank"></span></p>
+        <p><strong>Dinero:</strong> <span id="money"></span></p>
+        <p><strong>Kills:</strong> <span id="kills"></span></p>
+        <p><strong>Muertes:</strong> <span id="deaths"></span></p>
+        <p><strong>Horas jugadas:</strong> <span id="hours"></span></p>
+      </div>
+      <button id="changeName">Cambiar jugador</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
